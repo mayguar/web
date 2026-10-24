@@ -1,0 +1,128 @@
+
+/* ESTILO GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff7ec;
+    color: #594535;
+    line-height: 1.7;
+}
+
+/* ENCABEZADO */
+
+header {
+    background: linear-gradient(135deg, #e87524, #ffad66);
+    text-align: center;
+    color: white;
+    padding: 35px 20px 25px;
+}
+
+header h1 {
+    font-size: 34px;
+    margin: 0;
+}
+
+header p {
+    text-align: center;
+    margin: 10px 0 25px;
+}
+
+/* MENÚ */
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: white;
+    color: #b85215;
+    padding: 10px 17px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    background-color: #ffe0ba;
+}
+
+/* CONTENIDO */
+
+main {
+    max-width: 950px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 32px;
+    border-radius: 18px;
+    margin-bottom: 25px;
+    border-left: 6px solid #f39a48;
+    box-shadow: 0 4px 14px rgba(130, 74, 20, 0.08);
+}
+
+h2 {
+    color: #cf661e;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* FOTOGRAFÍAS */
+
+section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 25px auto;
+    border-radius: 15px;
+    border: 4px solid #ffe0ba;
+}
+
+/* ENLACES */
+
+main a {
+    color: #c35e18;
+    font-weight: bold;
+}
+
+main a:hover {
+    color: #8f3f0b;
+}
+
+/* PANTALLAS PEQUEÑAS */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav a {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    section {
+        padding: 22px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+}
